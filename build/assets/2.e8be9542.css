@@ -1,0 +1,57 @@
+.App {
+  padding: 20px;
+}
+
+input {
+  width: 1em;
+  padding: 1em;
+  border: 0;
+}
+
+td {
+  border: 1px solid black;
+}
+
+td:nth-child(3n + 3) {
+  border-right: 2px double;
+}
+
+tr:nth-child(3n + 3) {
+  border-bottom: 2px double;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px double;
+}
+
+.dropzone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.top-padding {
+  padding-top: 10%;
+}
+
